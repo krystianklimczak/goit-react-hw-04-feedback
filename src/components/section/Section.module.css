@@ -1,0 +1,11 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: start;
+}
+
+.section__title {
+    text-transform: uppercase;
+    color: #3e8e41;
+}
