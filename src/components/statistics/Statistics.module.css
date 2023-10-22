@@ -1,0 +1,16 @@
+.statistics__list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #04AA6D;
+    padding: 20px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+}
+
+.statistics__item {
+    background-color: #3e8e41;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
