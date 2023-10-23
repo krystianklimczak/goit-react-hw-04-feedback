@@ -11,7 +11,7 @@ export default class Statistics extends Component {
 
     render() {
         // destructuring assignment
-        const {good, neutral, bad, total, positiveFeedback} = this.props;
+        const {good, neutral, bad, total, positiveFeedback, handleReset} = this.props;
 
         return (
             <div className={css.statistics}>
@@ -31,6 +31,7 @@ export default class Statistics extends Component {
                     <li className={css.statistics__item}>
                         <p>Positive feedback: {positiveFeedback}</p>
                     </li>
+                <button type='button' className={css.statistics__btn} onClick={handleReset}>Reset</button>
                 </ul>
             </div>
         )

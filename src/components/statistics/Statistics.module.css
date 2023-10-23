@@ -14,3 +14,28 @@
     padding: 10px 20px;
     border-radius: 5px;
 }
+
+.statistics__btn {
+    padding: 10px 20px;
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #aa0404;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 10px auto;
+}
+
+.statistics__btn:hover {
+    background-color: #8e3e3e
+}
+
+.statistics__btn:active {
+    background-color: #8e3e3e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

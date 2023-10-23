@@ -47,6 +47,13 @@ export default class App extends Component {
       }))
   }
 
+  // method to reset default
+  handleReset = () => {
+    this.setState({
+      ...initialValues
+    })
+  }
+
   // render
   render() {
     // destructuring assignment
@@ -72,6 +79,7 @@ export default class App extends Component {
                 bad={bad}
                 total={total}
                 positiveFeedback={positiveFeedback}
+                handleReset={this.handleReset}
               /> 
             }
           </Section>
