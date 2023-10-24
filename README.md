@@ -30,4 +30,4 @@ Here is working live demo: ( https://krystianklimczak.github.io/goit-react-hw-02
 
 
 ## Feel free to share your opinion
-- ( https://www.linkedin.com/in/klima96/ )
+-  https://www.linkedin.com/in/klima96/ 
