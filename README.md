@@ -13,7 +13,6 @@ Here is working live demo: ( https://krystianklimczak.github.io/goit-react-hw-02
 ## Site
 
 ### Landing page
-Here is how it looks...
 ![](./assets/feedback-main.png)
 
 ## Table of content
