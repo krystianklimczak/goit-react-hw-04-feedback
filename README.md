@@ -22,6 +22,12 @@ Here is working live demo: ( https://krystianklimczak.github.io/goit-react-hw-02
 ![](./assets/feedback-reset.png)
 
 
+## Build with
+- HTML
+- CSS
+- JavaScript
+- React.js
+
 
 
 ## Utworzenie repozytorium zgodnie z szablonem
