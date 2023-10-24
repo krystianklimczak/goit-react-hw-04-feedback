@@ -9,7 +9,6 @@ import PropTypes from 'prop-types';
 
 export default class FeedbackOptions extends Component {
     render() {
-        // destructuring assignment
         const { options, onLeaveFeedback } = this.props;
         
         return (
@@ -30,7 +29,6 @@ export default class FeedbackOptions extends Component {
     }
 }
 
-// proptypes of feedback options
 FeedbackOptions.propTypes = {
     options: PropTypes.arrayOf(PropTypes.string).isRequired,
     onLeaveFeedback: PropTypes.func.isRequired,

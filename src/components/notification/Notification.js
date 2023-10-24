@@ -9,7 +9,6 @@ import PropTypes from 'prop-types';
 
 export default class Notification extends Component {
     render() {
-        // destructuring assignment
         const { message } = this.props;
 
         return (
@@ -20,7 +19,6 @@ export default class Notification extends Component {
     }
 }
 
-// proptypes of notification
 Notification.propTypes = {
     message: PropTypes.string.isRequired,
 };

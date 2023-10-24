@@ -20,10 +20,8 @@ const initialValues = {
 }
 
 export default class App extends Component {
-  // feedback answers start state
   state = {...initialValues};
 
-  // method to increment stats
   handleIncrement = (ev) => {
     const { name } = ev.target;
     this.setState((state) => ({
@@ -33,30 +31,25 @@ export default class App extends Component {
     this.countPositiveFeedbackPercentage();
   }
 
-  // method to count total feedback's
   countTotalFeedback = () => {
       this.setState((state) => ({
           total: state.good + state.neutral + state.bad,
       }));
   };
 
-  // method to count percentage value of positive feedback
   countPositiveFeedbackPercentage = () => {
       this.setState(({good, total}) => ({
           positiveFeedback: `${(parseFloat((good / total) * 100).toFixed(0)) + '%'}`,
       }))
   }
 
-  // method to reset default
   handleReset = () => {
     this.setState({
       ...initialValues
     })
   }
 
-  // render
   render() {
-    // destructuring assignment
     const {good, neutral, bad, total, positiveFeedback} = this.state
 
     return (

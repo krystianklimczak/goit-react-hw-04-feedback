@@ -9,7 +9,6 @@ import PropTypes from 'prop-types';
 
 export default class Section extends Component {
     render() {
-        // destructuring assignment
         const { title, children } = this.props;
         
         return (
@@ -21,7 +20,6 @@ export default class Section extends Component {
     }
 }
 
-// proptypes of section
 Section.propTypes = {
     title: PropTypes.string.isRequired,
     children: PropTypes.element.isRequired,

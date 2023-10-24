@@ -10,7 +10,6 @@ import PropTypes from 'prop-types';
 export default class Statistics extends Component {
 
     render() {
-        // destructuring assignment
         const {good, neutral, bad, total, positiveFeedback, handleReset} = this.props;
 
         return (
@@ -38,7 +37,6 @@ export default class Statistics extends Component {
     }
 }
 
-// proptypes of statistics
 Statistics.propTypes = {
     good: PropTypes.number.isRequired,
     neutral: PropTypes.number.isRequired,
