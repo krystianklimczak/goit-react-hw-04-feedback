@@ -15,7 +15,13 @@ Here is working live demo: ( https://krystianklimczak.github.io/goit-react-hw-02
 ### Landing page
 ![](./assets/feedback-main.png)
 
-## Table of content
+### Simply just click to add your feedback
+![](./assets/feedback-click.png)
+
+### You can always reset you feedback
+![](./assets/feedback-reset.png)
+
+
 
 
 ## Utworzenie repozytorium zgodnie z szablonem
