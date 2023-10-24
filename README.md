@@ -1,11 +1,23 @@
-**Read in other languages: [rosyjski](README.md), [polski](README.pl.md).**
+**Read in other languages: [polski](README.pl.md).**
 
-# React homework template
+# FeedbackApp
 
-Ten projekt został stworzony przy pomocy
-[Create React App](https://github.com/facebook/create-react-app). W celu
-zapoznania się z konfiguracją dodatkowych opcji
-[zobacz dokumentację](https://facebook.github.io/create-react-app/docs/getting-started).
+Simple feedback app created to allow you to leave your opinion. 
+There is three options : good, neutral, bad.
+App will count total and positive feedback.
+Created with React.js, HTML, CSS, JS, and a bit of passion...
+
+## Demo
+Here is working live demo: (https://krystianklimczak.github.io/goit-react-hw-02-feedback/)
+
+## Site
+
+### Landing page
+Here is how it looks...
+![](./src/img/feedback-main.png)
+
+## Table of content
+
 
 ## Utworzenie repozytorium zgodnie z szablonem
 
