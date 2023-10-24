@@ -8,13 +8,13 @@ App will count total and positive feedback.
 Created with React.js, HTML, CSS, JS, and a bit of passion...
 
 ## Demo
-Here is working live demo: (https://krystianklimczak.github.io/goit-react-hw-02-feedback/)
+Here is working live demo: ( https://krystianklimczak.github.io/goit-react-hw-02-feedback/ )
 
 ## Site
 
 ### Landing page
 Here is how it looks...
-![](./src/img/feedback-main.png)
+![](https://imgur.com/a/tiwYcBs)
 
 ## Table of content
 
