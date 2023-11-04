@@ -1,4 +1,4 @@
-import { useFeedback } from 'components/feedbackContext';
+import { useFeedback } from 'hooks/feedbackContext';
 
 import css from './Statistics.module.css';
 

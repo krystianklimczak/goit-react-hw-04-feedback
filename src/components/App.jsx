@@ -1,5 +1,5 @@
 import Section from './section/Section';
-import { useFeedback } from './feedbackContext';
+import { useFeedback } from '../hooks/feedbackContext';
 import Statistics from './statistics/Statistics';
 import Notification from './notification/Notification';
 import FeedbackOptions from './feedbackOptions/FeedbackOptions';

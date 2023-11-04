@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import App from 'components/App';
-import { FeedbackProvider } from 'components/feedbackContext';
+import { FeedbackProvider } from 'hooks/feedbackContext';
 
 import './index.css';
 

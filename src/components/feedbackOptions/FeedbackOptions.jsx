@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { useFeedback } from 'components/feedbackContext';
+import { useFeedback } from 'hooks/feedbackContext';
 
 import css from './FeedbackOptions.module.css';
 
