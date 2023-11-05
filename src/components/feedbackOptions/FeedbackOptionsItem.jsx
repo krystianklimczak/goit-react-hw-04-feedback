@@ -1,5 +1,5 @@
 import { useFeedback } from 'hooks/feedbackContext';
-import React from 'react';
+
 import css from './FeedbackOptions.module.css';
 
 export default function FeedbackOptionsItem(props) {
