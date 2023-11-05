@@ -1,3 +1,4 @@
+import StatisticsItem from './StatisticsItem';
 import { useFeedback } from 'hooks/feedbackContext';
 
 import css from './Statistics.module.css';
@@ -9,21 +10,11 @@ export default function Statistics() {
   return (
     <div className={css.statistics}>
       <ul className={css.statistics__list}>
-        <li className={css.statistics__item}>
-          <p>Good: {good}</p>
-        </li>
-        <li className={css.statistics__item}>
-          <p>Neutral: {neutral}</p>
-        </li>
-        <li className={css.statistics__item}>
-          <p>Bad: {bad}</p>
-        </li>
-        <li className={css.statistics__item}>
-          <p>Total: {total}</p>
-        </li>
-        <li className={css.statistics__item}>
-          <p>Positive feedback: {positiveFeedback}</p>
-        </li>
+        <StatisticsItem title={'Good'} value={good} />
+        <StatisticsItem title={'Neutral'} value={neutral} />
+        <StatisticsItem title={'Bad'} value={bad} />
+        <StatisticsItem title={'Total'} value={total} />
+        <StatisticsItem title={'Positive Feedback'} value={positiveFeedback} />
         <button
           type="button"
           className={css.statistics__btn}
